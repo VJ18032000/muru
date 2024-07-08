@@ -77,7 +77,8 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: rgba(220, 218, 252, 0.75);
+  /* background:url('../img/header.png'); */
+  background-color: #fff;
   transition: all 0.5s;
   z-index: 997;
   height: 80px;
@@ -121,6 +122,7 @@ h6 {
 
 .navbar li {
   position: relative;
+
 }
 
 .navbar>ul>li {
@@ -137,7 +139,7 @@ h6 {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 500;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(8, 8, 8, 0.7);
   white-space: nowrap;
   transition: 0.3s;
   text-transform: uppercase;
@@ -175,7 +177,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fff;
+  color: #0a0a0a;
 }
 
 .navbar .getstarted,
@@ -183,7 +185,7 @@ h6 {
   padding: 8px 25px;
   margin-left: 12px;
   border-radius: 4px;
-  color: #fff;
+  color: #050505;
   font-weight: 400;
   font-family: "Poppins", sans-serif;
   border: 2px solid #2aa8de;
@@ -191,7 +193,7 @@ h6 {
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
-  color: #fff;
+  color: #000000;
   background: #2aa8de;
 }
 
@@ -210,7 +212,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #020202;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -270,7 +272,7 @@ h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: #000000;
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -1472,7 +1474,7 @@ section {
     display: block;
     margin-left: 25px;
     margin-right: auto;
-    width: 22%;
+    width: 40%;
   }
   .breadcrumbs .d-flex {
     display: block !important;
